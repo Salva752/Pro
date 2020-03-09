@@ -54,8 +54,8 @@ public class Temperaturas {
 	public void leer() {
 		for (int cont = 0;cont < diamax;cont++) {
 			System.out.print("\nTemperatura del dia "+(cont+1)+": ");
-			temp[cont] = cont;
-			//temp[cont] = sc.nextDouble();
+			//temp[cont] = cont;
+			temp[cont] = sc.nextDouble();
 		}
 	}
 	
